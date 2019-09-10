@@ -1,2 +1,6 @@
 # Caroline Gancarz web-dev-homework repo
-Repository for intro Web Dev Homework
+
+
+This is for all my outstanding and future web-dev homework
+
+I am a Human Biology Major at the University of Montana, interested in Web design!
