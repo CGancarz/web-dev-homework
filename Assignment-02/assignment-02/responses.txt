@@ -1,0 +1,9 @@
+Caroline E. Gancarz
+
+Data travels across the internet in small blebs of data. A computer receiving these blebs makes sense of it all by reassembling the blebs into data, and thereafter into useable infromation.
+
+An IP address is unique to each computer while a DNS translate domain names into IP addresses.
+
+Cookies are small files stored on an individual's computer.
+
+A URL is made up of a scheme, a host, and a path/query string.
