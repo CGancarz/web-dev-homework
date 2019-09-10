@@ -3,3 +3,11 @@
 Hi there; I am terrible at anything computer related - sorry for the delay!
 
 The video explanations online are extremely helpful!
+
+The web is as though it is a smaller collaborative pool of information from the internet, while the internet is vastyly larger. The web is a small part of the internet, in other words.
+
+The internet works as a shared collective of data. People and/or organizations have information/data/resources, and through requests from others can share their information and vice versa. What one side knows, now the other and so forth, through the collective sharing across the "net" of information. Servers on the internet work as platforms for people looking for specific information from sources beyond what they possess. The more sharing = the more collective knowledge. Doors are opened, minds are BLOWN.
+
+A directory can hold one singular file or many files. It is where you go first to find which file you need, and where to look for it speficially.
+
+Version control systems make sense in their use because it prevents changes from going unnoticed in software development. If there, for instance, were a singular developer working on a project - they could track their work but get no where fast. Whereas a team of developers could work at lightning speeds but be unable to pinpoint issues if there are no VCS in place to backtrack.
