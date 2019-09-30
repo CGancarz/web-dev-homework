@@ -1,0 +1,12 @@
+# Assignment 05
+## Caroline Gancarz
+
+1) A proper page has one <head> and <body> element, but someone could in theory, add more of these on the same page. This would make the page look very cluttered. Personally, I tried this and my page looked awfully sloppy... The <head> is geared towards incorporation of meta elements, including the tab name, brief website description, page title, and further introductory elements such as the language used on the page (in my case, english) as well as the scope of view, including scale of web page size. The <body> houses visible information for the web page. This includes additional titles, links, photos, and information that needs to be included as pertinent content to the page. I view this as the "meat" of the page where a person gets the information they are looking for.
+
+2)Structural markup works by embedding information on the structure of documents on the web page. These can including elements like headings, paragraphs, lines and line breaks, and lists. Semantic markup is used to reinforce the meaning of document information. This can be used to place emphasis on words/phrases such as bold, italic, underlined, and strike-through components.
+
+3) This assignment posed slight challenges. For one, I had a hard time trying to format my page. I really strived for a specific aesthetic with my images and titles, but I am having a difficult time with this still!
+As far as my work cycle, I find my best results begin by adding html elements as necessary at first, and filling in "the middle." I added structural markup first, then moved onto semantic when I was happy with the overall structure of my page. When I am at the point of adding visuals to my page, I have it open in another view and edit as I go to visualize the changes I make then and there by saving in Atom and refreshing my web browser on the page. This gives me a great idea of what works/does not for me.
+
+I would really like to know more about ways to hyperlink items on a page without making them outwardly obvious (ie. the link is not an absurd color, but the cursor discovers a link available when hovering over a word.) I also would like to know how better to edit photos and add specific fonts to better fit the aesthetic I am looking for.
+As far as problems - this assignment took longer than I expected, but keeping my webpage open helped me visualize what was and wasn't working for me.
