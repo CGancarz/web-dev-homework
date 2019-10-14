@@ -39,15 +39,27 @@
 
     <div class="container">
       <p> This is a paragraph!</p>
+      <p> Another paragraph! </p>
       </div>
 
-      <div class="container lyrics">
-        <p> This is a paragraph!</p>
+      <div class="container">
+        <p> This is an embedded video</p>
         <iframe width="560" height="315"
         src="https://www.youtube.com/embed/q7uyKYeGPdE" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope;
         picture-in-picture" allowfullscreen></iframe>
         </div>
+
+        <div class="container lyrics">
+          <p> This is a self-hosted video!</p>
+
+          <video>
+            <source src="./media/mart-logo-animated.mp4"
+            type="'video/mp4;codecs="avc1.42E01E, mp4a.40.2"'">
+            <source src="/.media/mart-logo-animated.webm"
+            type="'video/webm;codecs="vp8, vorbis"'">
+          </video>
+          </div>
 
     </body>
 
