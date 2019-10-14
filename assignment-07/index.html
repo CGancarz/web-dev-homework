@@ -23,7 +23,7 @@
   border: 1px solid black;
 }
 .lyrics p, pre {
-  background-color: grey;
+  background-color: blue;
   color: white;
   font-size: small;
   font-family: Arial;
@@ -53,11 +53,12 @@
         <div class="container lyrics">
           <p> This is a self-hosted video!</p>
 
-          <video>
+          <video poster="./media/mart-logo-poster.jpg"
+          width="400" height="200" preload controls>
             <source src="./media/mart-logo-animated.mp4"
-            type="'video/mp4;codecs="avc1.42E01E, mp4a.40.2"'">
+            type="video/mp4;codecs="avc1.42E01E, mp4a.40.2"">
             <source src="/.media/mart-logo-animated.webm"
-            type="'video/webm;codecs="vp8, vorbis"'">
+            type="video/webm;codecs="vp8, vorbis"">
           </video>
           </div>
 
