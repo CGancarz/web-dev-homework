@@ -25,8 +25,9 @@
 .lyrics {
   background-color: #9C8160;
   color: white;
-  font-size: medium;
-  font-family: Arial;}
+  font-size: large;
+  font-family: Arial;
+  text-align: left}
 
 h1 {color: orange; text-align: center}
 h2 {color: black; text-align: left}
@@ -42,7 +43,13 @@ h2 {color: black; text-align: left}
       <br>
     <div id="Album Art" class="container">
       <h2>Album Art</h2>
-      <img src ="" alt="" title="" width="" height=""/>
+      <div class="row">
+          <div class="column">
+    <img src="./images/ray-charles01.jpg" alt="Album Cover" style="width:300px">
+</div>
+    <div class="row">
+        <div class="column">
+    <img src="./images/ray-charles.jpg" alt="Rear Cover" style="width:300px">
     </div>
 
     <div id="Audio" class="container">
@@ -55,12 +62,11 @@ h2 {color: black; text-align: left}
 
       <div id="Video" class="container">
         <h2>Video</h2>
-        <p> This is an embedded video</p>
-        <iframe width="560" height="315"
+        <iframe width="500" height="315"
         src="https://www.youtube.com/embed/tvEcQoMEvNQ" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope;
         picture-in-picture" allowfullscreen>
-        </iframe>
+      </iframe>
         </div>
 
         <div id="Lyrics" class="container" class="lyrics">
