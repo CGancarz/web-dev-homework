@@ -1,112 +1,59 @@
-
-
-
-
-
-
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>
-							Assignment 08
-					</title>
-		<meta nam="robots" content="noindex">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+    content="width=device-width,
+    initial-scale=1.0">
+    <meta name="description"
+    content="This is assignment 08 for Web Dev at UM Missoula, Fall 2019">
+    <meta name="author" content="Caroline Gancarz">
+    <title>Assignment 08</title>
+  </head>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <body>
+    <img src="./images/potatofield.jpg" {:height="150px" width="1000px"}/>
+    <h1><b>From Field to Table</b></h1>
+    <h2>Growing Your Own Potatoes</h2>
+    <br>
+    <br>
+    <h2>Tools & Supplies</h2>
+      <ul><li>3 pounds small red or white potatoes</li>
+          <li>1/4 cup <strong>GOOD</strong> olive oil</li>
+          <li>1 1/2 teaspoons kosher salt</li>
+          <li>1 teaspoon freshly ground black pepper</li>
+          <li>2 tablespoons minced garlic (6 cloves)</li>
+          <li>2 tablespoons minced fresh parsley</li>
+      </ul>
+    <h2>Steps</h2>
+      <ol><li>Preheat the oven to 400&#176; F.</li>
+          <li>Cut the potatoes in half or quarters and place in a bowl with
+            the olive oil, salt, pepper, and garlic; toss until the potatoes
+            are well coated. Transfer the potatoes to a sheet pan and spread
+            out into 1 layer. Roast in the oven for 45 minutes to 1 hour
+            or until browned and crisp. Flip twice with a spatula during
+            cooking in order to ensure even browning.</li>
+          <li>Remove the potatoes from the oven, toss with parsley,
+          season to taste, and serve hot.</li>
+      </ol>
+      <br>
+      <h2><a href="https://barefootcontessa.com/recipes/garlic-roasted-potatoes">
+        Ina Garten's Website</a></h2>
+      <img src="./images/ina.jpg" / {:height="300px" width="600px"}>
+      <figcaption>The Barefoot Contessa Herself & <a href="https://crooksandliars.com/2014/10/open-thread-barefoot-contessa-win"> Link to this photo</a></figcaption>
 
-<link rel="shortcut icon" type="image/x-icon" href="https://www.umt.edu/favicon.ico">
+<!-- Make sure to tag image URL! -->
 
-<link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <h4>Contact Information:</h4>
+    Written by Caroline G.
+    <br>Contact her here:<a href="mailto:caroline.gancarz@umconnect.umt.edu"> e-mail</a>
+    <br><a href="mailto:caroline.gancarz@umconnect.umt.edu">caroline.gancarz@umconnect.umt.edu</a>
+    <br>
+  <address>
+University of Montana
+<br>32 Campus Drive
+<br>Missoula, MT 59812
+</address>
 
-<link rel="stylesheet" type="text/css" href="/idp/css/master.css"/>
-			<link rel="stylesheet" type="text/css" href="/idp/css/error.css"/>
-	</head>
-	<body>
-						<nav id="head" class="navbar navbar-default">
-	<div class="container-fluid">
-		<div class="navbar-header">
-			<div class="navbar-brand">
-				<img id="head-img" class="img-fluid" src="/idp/images/netid-pulse-login.png" alt="UM Logo">
-			</div>
-		</div>
-		<div id="head-links">
-			<ul class="list-inline">
-				<li class="list-inline-item">
-					<a href="//www.umt.edu/accessibility/" class="nav-link header-link"><i class="fas fa-universal-access"></i>Accessibility</a>
-				</li>
-				<li class="list-inline-item">
-					<a href="//www.umt.edu/solutions" class="nav-link header-link"><i class="fas fa-question-circle"></i>243-HELP(4357)</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-</nav>
-
-						<div id="sec-warn" class="container-fluid back-white">
-				<div class="row">
-			 		<div class="col">
-						<span class="text-center">
-			 				<i class="fas fa-exclamation-triangle"></i>For your security, please close your web browser when not in use.
-						</span>
-					</div>
-				</div>
-			</div>
-
-						<div id="body-container" class="container-fluid back-white">
-						<div class="row justify-content-center align-items-start">
-			<div id="error-view" class="col-8">
-				    <h1><i class="fas fa-exclamation-triangle"></i>Growing Potatoes of Your Very Own!</h1>
-											<div class="alert-light"><p>You may be seeing this page because you used the BACK button while browsing a web site or application you just logged in to.</p> <p>Alternatively, you may have mistakenly book marked the NetID Login page instead of the actual web site you wanted to book mark.</p><p>Please visit&nbsp;&nbsp;<a href="http://my.umt.edu">my.umt.edu</a>&nbsp;&nbsp;to browse available UM services.&nbsp;&nbsp;Thank You!</p></div>
-								</div>
-		</div>
-			</div>
-
-
-						<nav id="foot" class="navbar navbar-default">
-	<div class="container-fluid">
-		<div class="navbar-header">
-			<a class="navbar-brand" href="//www.umt.edu">
-				<img id="foot-img" class="img-fluid" src="/idp/images/login-navbar-stretched-logo.png" alt="UM Logo">
-			</a>
-		</div>
-		<div id="foot-links">
-					</div>
-	</div>
-</nav>
-
-<div class="container-fluid">
-		<div class="row-fluid">
-			<div class="col legalese float-left">
-				<p>
-				This system is the property of University of Montana and is subject to the MUS security, monitoring, and appropriate-use policies. Unauthorized use is a violation of 45-6-311, MCA and Montana University System policies. By continuing to use this system, you indicate your awareness of and consent to these terms and conditions of use. Log off immediately if you do not agree to the conditions stated in this warning.
-				</p>
-				<p>
-				Never respond to email asking you to provide account information. UM will never ask you for personal information by email. If you think you have provided your password by email, contact the IT help desk immediately.
-				</p>
-			</div>
-		</div>
-		<div class="row-fluid">
-			<div class="col legalese float-left">
-				<ul class="list-inline float-left">
-					<li class="list-inline-item"><a href="//www.mus.edu/borpol/bor1300/1302.htm" class="nav-link"><i class="fas fa-file-pdf"></i>Privacy Policy</a></li>
-					<li class="list-inline-item"><a href="//www.mus.edu/borpol/bor1300/1304-1.htm" class="nav-link"><i class="fas fa-file-pdf"></i>Student Use Policy</a></li>
-					<li class="list-inline-item"><a href="//www.mus.edu/borpol/bor1300/1303-1.htm" class="nav-link"><i class="fas fa-file-pdf"></i>Employee Use Policy</a></li>
-				</ul>
-			</div>
-		</div>
-		<div class="row-fluid">
-			<div class="col legalese float-left">
-				<p>Copyright&nbsp;&copy;&nbsp;Caroline Gancarz. Most (if not all) of
-          this content is from various internet sources and I own none of it! 😌
-        </p>
-			</div>
-		</div>
-</div>
-	</body>
+  </body>
 </html>
