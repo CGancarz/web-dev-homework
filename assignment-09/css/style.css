@@ -1,19 +1,35 @@
+body {
+  background-image: url('images/50sKitchen.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  padding: 10px;
+  }
+
+.transbox {
+    margin: 20px;
+    background-color: white;
+    border: 2px dashed black;
+    opacity: 0.7;
+    text-align: left;
+                }
 .square {
   font-size: 22px;
-  color: pink;
+  color: black;
   width: 50%;
   height: 200px;
 }
 
-#pink {
+#one {
   background-color: yellow;
 }
-#green {
-  background-color: yellow;
+#two {
+  background-color: white;
 }
-#yellow {
-  background-color: green;
+#three {
+  background-color: white;
 }
-#blue {
-  background-color: yellow;
+#four {
+  background-color: white;
 }
