@@ -1,0 +1,19 @@
+.square {
+  font-size: 22px;
+  color: pink;
+  width: 50%;
+  height: 200px;
+}
+
+#pink {
+  background-color: yellow;
+}
+#green {
+  background-color: yellow;
+}
+#yellow {
+  background-color: green;
+}
+#blue {
+  background-color: yellow;
+}
