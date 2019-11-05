@@ -75,20 +75,17 @@ h1 {
 }
 
 #five{
-  height: 20px;
-  width: 350px;
-  border: 1px dashed black;
+  width: auto 25%;
+  height: auto;
   padding: 5px;
+  box-sizing: border-box;
+  border: 1px dashed black;
   border-radius: 3px;
   background-color: #C2B28F;
   color: white;
   size: 10px;
   text-align: center;
   float: right;
-  clear: both;
-  padding: 20px;
-  margin: 20px;
-  box-sizing: border-box;
 }
 
 img {
