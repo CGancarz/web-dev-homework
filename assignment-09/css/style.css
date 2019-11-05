@@ -12,7 +12,7 @@ body {
  }
 
 .transbox {
-    margin: 20px;
+    margin: 10px;
     width: 100%;
     height: 100%;
     background-color: white;
@@ -23,7 +23,7 @@ body {
   margin: 25px;
   font-size: 25px;
   color: black;
-  width: 90%;
+  width: 100%;
   height: 200px;
   background-color: white;
   text-align: center;
