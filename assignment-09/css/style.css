@@ -74,6 +74,23 @@ h1 {
   padding: 20px;
 }
 
+#five{
+  height: 20px;
+  width: 350px;
+  border: 1px dashed black;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #C2B28F;
+  color: white;
+  size: 10px;
+  text-align: center;
+  float: right;
+  clear: both;
+  padding: 20px;
+  margin: 20px;
+  box-sizing: border-box;
+}
+
 img {
   filter: gray;
   -webkit-filter: grayscale(1);
