@@ -20,7 +20,10 @@ body {
           }
 
 #one {
-  margin: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   font-size: 22px;
   font-family: Gill Sans Extrabold, sans-serif;
   color: black;
