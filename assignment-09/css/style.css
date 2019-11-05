@@ -4,12 +4,13 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-size: 100%;
-  padding: 5px;
-  }
+  padding: 4px;
+}
 
  iframe{
    display: none;
  }
+ /*extremely difficult to assess if autoplay works!*/
 
 .transbox {
     margin: 10px;
@@ -17,7 +18,8 @@ body {
     height: 100%;
     background-color: white;
     opacity: 0.9;
-          }
+}
+
 h1 {
     -webkit-text-stroke: 1px black;
     color: #DFB859;
@@ -27,17 +29,17 @@ h1 {
     1px -1px 0 #366384,
     -1px 1px 0 #366384,
     1px 1px 0 #366384;
-          }
+}
 
 #one {
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   font-size: 22px;
   font-family: courier;
   color: black;
-  width: 95%;
+  width: 97%;
   height: auto;
   background-color: #C9DCAF;
   text-align: center;
@@ -47,38 +49,38 @@ h1 {
 
 #two {
   background-color: white;
-  height: 700px;
-  width: 505px;
-  float: auto left;
+  height: 750px;
+  width: 555px;
+  position: auto left;
   clear: both;
-  padding: 25px;
+  padding: 20px;
 }
 
 #three {
   background-color: white;
-  height: 700px;
-  width: 505px;
+  height: 750px;
+  width: 555px;
   float: right;
   clear: both;
-  padding: 25px;
+  padding: 20px;
 }
 
 #four {
   background-color: white;
-  height: 700px;
-  width: 505px;
-  float: auto left;
+  height: 750px;
+  width: 555px;
+  position: auto left;
   clear: both;
-  padding: 25px;
+  padding: 20px;
 }
 
 img {
   filter: gray;
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
-    }
+}
 
 img:hover {
   -webkit-filter: grayscale(1);
     filter: none;
-        }
+}
