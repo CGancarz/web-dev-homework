@@ -190,3 +190,17 @@ footer {
   text-decoration-color: salmon;
   text-decoration-style: wavy;
 }
+
+.transbox {
+  margin: 30px;
+  background-color: white;
+  border: 2px dashed black;
+  opacity: 0.8;
+  text-align: left;
+              }
+
+.nav {
+    text-align: center;
+    font-family: courier;
+    size: 15px;
+        }
