@@ -1,0 +1,57 @@
+/* Sidebar main page */
+.sidebar {
+  background-color: white;
+  width: 200px;
+  padding: 30px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* Logo and hover components */
+.site-logo {
+    background-color: #b79268;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    margin: 0px auto 75px;
+}
+.site-logo:hover {
+  background-color: #B19CD9;
+}
+.site-logo #logo {
+  width: 140px;
+  height: 140px;
+  margin: 5px;
+}
+
+/* Site Links with indent change on hover: */
+#site-navigation a {
+  color: black;
+  display: block;
+  margin: 0.6em 1.2em;
+  font-family: 'Cookie', cursive;
+  font-size: 1.5em;
+}
+
+#site-navigation a:hover {
+  text-indent: 0.5em;
+}
+
+#social-links {
+  background-color: inherit;
+  width: inherit;
+  position: inherit;
+  bottom: 10px;
+}
+
+#social-links img {
+  background-color: #d3d3d3;
+  width: 25%;
+  height: auto;
+  float: left;
+}
+#social-links img:hover {
+  background-color: #B19CD9;
+}
