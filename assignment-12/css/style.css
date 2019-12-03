@@ -4,15 +4,14 @@
 
  /* SITE-WIDE ELEMENTS: */
  body {
-   background-color: lightblue;
-   background-image: url('../images/site-border.png');
+   background-color: white;
    background-repeat: repeat-x;
    background-attachment: fixed;
  }
  h1, span {
    margin: 0;
    font-family: 'Pacifico', cursive;
-   color: saddlebrown;
+   color: black;
    text-align: center;
  }
 h4 {
@@ -41,9 +40,6 @@ q {
   margin: 3em auto;
   padding: 3em;
 
-  background-color: #FFF;
-  border-right: 15px solid #999;
-  border-bottom: 15px solid #666;
 }
 header {
 
@@ -193,9 +189,4 @@ footer {
   text-decoration: underline overline;
   text-decoration-color: salmon;
   text-decoration-style: wavy;
-}
-
-/* Decorative line break: */
-.line {
-  border-top: 5px double salmon;
 }
