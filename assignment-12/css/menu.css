@@ -11,7 +11,7 @@
 
 /* Logo and hover components */
 .site-logo {
-    background-color: #b79268;
+    background-color: yellow;
     width: 150px;
     height: 150px;
     border-radius: 20px;
@@ -32,7 +32,7 @@
   display: block;
   margin: 0.6em 1.2em;
   font-family: 'Cookie', cursive;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 #site-navigation a:hover {
@@ -40,18 +40,18 @@
 }
 
 #social-links {
-  background-color: inherit;
+  background-color: white;
   width: inherit;
   position: inherit;
   bottom: 10px;
 }
 
 #social-links img {
-  background-color: #d3d3d3;
+  background-color: grey;
   width: 25%;
   height: auto;
   float: left;
 }
 #social-links img:hover {
-  background-color: #B19CD9;
+  background-color: green;
 }
