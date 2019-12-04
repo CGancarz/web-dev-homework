@@ -8,45 +8,23 @@
    background-repeat: repeat;
    background-attachment: fixed;
  }
- h1, span {
-   margin: 0;
-   font-family: sans-serif;
-   color: black;
-   text-align: center;
- }
 
-q {
-   font-family: 'Arvo-BI', serif;
-   font-size: 2em;
- }
  a {
    font-family: 'Arvo-B', serif;
    text-decoration: none;
    color: inherit;
  }
- * {
-   font-family: 'Arvo', serif;
-   position: relative;
-   color: green;
- }
 
 
-/* LAYOUT AREAS: */
+/* Top Navi */
 .main-container {
-  position: center;
-  width: 60%;
-  max-width: 100px;
-  margin: 3em auto;
-  padding: 3em;
+  color: black;
+  position: relative;
+  width: 100%;
+  max-width: 100vh;
+  margin: 8em auto;
+}
 
-}
-header {
-
-}
-main {
-  text-align: justify;
-  margin: 3em 0;
-}
 footer {
   text-align: center;
   font-size: .75em;
@@ -75,9 +53,7 @@ footer {
   padding: 30px;
   position: relative;
   z-index: 1;
-
   border: 5px double salmon;
-
   text-align: center;
 }
 #site-title {
@@ -160,10 +136,3 @@ footer {
   text-decoration-color: salmon;
   text-decoration-style: wavy;
 }
-
-
-.nav {
-    text-align: center;
-    font-family: courier;
-    size: 20px;
-        }
