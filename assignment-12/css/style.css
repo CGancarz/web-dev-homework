@@ -35,8 +35,9 @@ q {
 
 /* LAYOUT AREAS: */
 .main-container {
+  position: center;
   width: 60%;
-  max-width: 700px;
+  max-width: 100px;
   margin: 3em auto;
   padding: 3em;
 
@@ -56,6 +57,13 @@ footer {
 
 
 /* LAYOUT PIECES: */
+.container {
+  width: 200px;
+  height: 300px;
+  position: relative;
+}
+
+
 
 /* Site information: */
 .site-heading {
@@ -78,7 +86,7 @@ footer {
   font-size: 1em;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: salmon;
+  color: red;
 }
 
 .site-logo {
@@ -102,48 +110,6 @@ footer {
   opacity: 0;
 }
 
-/* Blog post: */
-.post-title {
-
-}
-.post-subtitle {
-  margin-left: 15px;
-  padding: 5px;
-  border-left: 5px double salmon;
-}
-.post-content {
-  line-height: 1.45em;
-}
-.post-content p {
-  margin: 2em 0em;
-}
-.post-content p:first-letter {
-  margin-right: 1px;
-  font-size: 2em;
-  font-weight: 400;
-  color: chocolate;
-}
-/* Pull quote: */
-.pull-quote {
-  width: 30%;
-  min-width: 200px;
-  padding: 1.5em;
-  margin: 2em 0 0 2em;
-  float: right;
-
-  background-image: url('../images/quote-left.svg');
-  background-size: 75px 75px;
-  background-repeat: no-repeat;
-  background-position: left top;
-
-  text-align: right;
-}
-.pull-quote:hover {
-  background-image: url('../images/quote-right.svg');
-  background-size: 75px 75px;
-  background-repeat: no-repeat;
-  background-position: right bottom;
-}
 
 /* Read more: */
 .archives-link {
@@ -191,16 +157,9 @@ footer {
   text-decoration-style: wavy;
 }
 
-.transbox {
-  margin: 30px;
-  background-color: white;
-  border: 2px dashed black;
-  opacity: 0.8;
-  text-align: left;
-              }
 
 .nav {
     text-align: center;
     font-family: courier;
-    size: 15px;
+    size: 20px;
         }
