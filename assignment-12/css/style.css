@@ -1,8 +1,4 @@
-/*------------------------
-| CSS for General Styling |
- ------------------------*/
 
- /* SITE-WIDE ELEMENTS: */
  body {
    background-color: white;
    background-repeat: repeat;
@@ -19,10 +15,10 @@
 /* Top Navi */
 .main-container {
   color: black;
-  position: relative;
+  text-align: center;
+  position: center;
   width: 100%;
-  max-width: 100vh;
-  margin: 8em auto;
+  margin: 5em auto;
 }
 
 footer {
@@ -34,8 +30,9 @@ footer {
 
 /* LAYOUT PIECES: */
 .container {
-  width: 200px;
-  height: 300px;
+  width: 300px;
+  height: 400px;
+  padding: 20px auto;
   position: relative;
 }
 
@@ -57,9 +54,10 @@ footer {
   text-align: center;
 }
 #site-title {
-  margin: .5em;
+  font-family: 'Saira Stencil One', cursive;
+  margin: .7em;
   line-height: 1em;
-  font-size: 3em;
+  font-size: 5em;
 }
 #site-slogan {
   font-family: serif;
