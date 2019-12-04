@@ -5,19 +5,16 @@
  /* SITE-WIDE ELEMENTS: */
  body {
    background-color: white;
-   background-repeat: repeat-x;
+   background-repeat: repeat;
    background-attachment: fixed;
  }
  h1, span {
    margin: 0;
-   font-family: 'Pacifico', cursive;
+   font-family: sans-serif;
    color: black;
    text-align: center;
  }
-h4 {
-  font-family: 'Arvo-B', serif;
-  font-size: 1em;
-}
+
 q {
    font-family: 'Arvo-BI', serif;
    font-size: 2em;
@@ -29,7 +26,8 @@ q {
  }
  * {
    font-family: 'Arvo', serif;
-   color: #000;
+   position: relative;
+   color: green;
  }
 
 
@@ -83,6 +81,7 @@ footer {
   font-size: 3em;
 }
 #site-slogan {
+  font-family: serif;
   font-size: 1em;
   letter-spacing: 1px;
   text-transform: uppercase;
