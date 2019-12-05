@@ -1,5 +1,6 @@
 
  body {
+   overflow-x: hidden;
    background-color: white;
    background-repeat: repeat;
    background-attachment: fixed;
@@ -32,7 +33,6 @@ footer {
   margin-top: 3em;
 }
 
-
 /* LAYOUT PIECES: */
 .container {
   width: 300px;
@@ -42,20 +42,16 @@ footer {
 }
 
 .media {
-  padding-left: 200px;
-
+  padding-left: 220px;
 }
 
-
-
-/* Site information: */
 .site-heading {
   width: 50%;
   margin: 4em auto;
   padding: 30px;
   position: relative;
   z-index: 1;
-  border: 5px double salmon;
+  border: 5px double;
   text-align: center;
 }
 #site-title {
@@ -66,10 +62,10 @@ footer {
 }
 #site-slogan {
   font-family: serif;
-  font-size: 1em;
+  font-size: 1.5em;
   letter-spacing: 1px;
-  text-transform: uppercase;
-  color: red;
+  text-transform: lowercase;
+  color: black;
 }
 
 .site-logo {

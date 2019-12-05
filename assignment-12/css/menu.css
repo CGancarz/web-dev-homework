@@ -23,7 +23,7 @@
 .site-logo #logo {
   width: 140px;
   height: 140px;
-  margin: 5px;
+  margin: 10px;
 }
 
 /* Site Links with indent change on hover: */
@@ -36,7 +36,7 @@
 }
 
 #site-navigation a:hover {
-  text-indent: 0.5em;
+  text-indent: 0.8em;
 }
 
 #social-links {
