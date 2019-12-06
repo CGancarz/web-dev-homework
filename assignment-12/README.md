@@ -1,4 +1,5 @@
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HWQR-hAJrKU?controls=0&loop=1&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+# Assignment 12
+## Caroline Gancarz
 
 1. My imaginary client is a person selling "designer" potato sacks (I know, strange...) They wanted a clean minimalist aesthetic to highlight their products. I wanted to emulate this website I came across that I thought was absolutely outstanding: https://www.rexvintagestore.com/edit-08/ like WOW, just wow!
 2. Display sets an element inner and outer type. Display block puts elements into blocks while inline causes them to line up in a specific orientation. Display inline-block allows to set a width and height on an element, including the top and bottom margins and paddings.
