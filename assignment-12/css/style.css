@@ -46,92 +46,25 @@ footer {
 }
 
 .site-heading {
-  width: 50%;
-  margin: 4em auto;
-  padding: 30px;
+  width: 55%;
+  margin: 3em auto;
+  padding: 20px;
   position: relative;
   z-index: 1;
-  border: 5px double;
+  border: 10px double brown;
   text-align: center;
 }
 #site-title {
   font-family: 'Saira Stencil One', cursive;
   margin: .7em;
   line-height: 1em;
-  font-size: 5em;
+  font-size: 6em;
+  margin-bottom: -5px;
 }
 #site-slogan {
-  font-family: serif;
+  font-family: cursive;
   font-size: 1.5em;
   letter-spacing: 1px;
   text-transform: lowercase;
   color: black;
-}
-
-.site-logo {
-  margin: auto;
-  margin-top: -60px;
-  display: block;
-  postion: relative;
-  z-index: 2;
-}
-.under-img {
-  width: 60px;
-  height: 60px;
-  z-index: 3;
-}
-.over-img {
-  width: 60px;
-  height: 60px;
-  z-index: 4;
-}
-.over-img:hover {
-  opacity: 0;
-}
-
-
-/* Read more: */
-.archives-link {
-  min-height: 5em;
-}
-.button {
-  width: 12em;
-  margin: auto;
-  padding: 0em .5em;
-  position: relative;
-
-  background-color: chocolate;
-  border-color: #999 #666 #666 #999;
-  border-width: 10px 15px 15px 10px;
-  border-style: solid;
-
-  text-align: center;
-}
-.button:active {
-  background-color: saddlebrown;
-  border-color: #666 #999 #999 #666;
-  border-width: 15px 10px 10px 15px;
-  border-style: solid;
-}
-.button:active {
-  background-color: saddlebrown;
-  border-color: #666 #999 #999 #666;
-  border-width: 15px 10px 10px 15px;
-  border-style: solid;
-}
-.button h4 {
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #FFF;
-}
-.button h4:hover {
-  text-decoration: underline overline;
-  text-decoration-color: white;
-  text-decoration-style: wavy;
-}
-.button h4:active {
-  color: salmon;
-  text-decoration: underline overline;
-  text-decoration-color: salmon;
-  text-decoration-style: wavy;
 }

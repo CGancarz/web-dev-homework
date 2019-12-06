@@ -4,27 +4,12 @@
   width: 180px;
   padding: 30px;
   height: 100vh;
+  float: left;
   position: fixed;
   top: 0;
   left: 0;
 }
 
-/* Logo and hover components */
-.site-logo {
-    background-color: yellow;
-    width: 150px;
-    height: 150px;
-    border-radius: 20px;
-    margin: 0px auto 75px;
-}
-.site-logo:hover {
-  background-color: #B19CD9;
-}
-.site-logo #logo {
-  width: 140px;
-  height: 140px;
-  margin: 10px;
-}
 
 /* Site Links with indent change on hover: */
 #site-navigation a {
