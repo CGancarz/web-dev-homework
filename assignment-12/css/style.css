@@ -4,7 +4,6 @@
    background-color: white;
    background-repeat: repeat;
    background-attachment: fixed;
-   cursor:url("./media/cursor.png"), url(foo.cur), auto!important;
  }
 
  a {
@@ -13,11 +12,6 @@
    color: inherit;
  }
 
- iframe{
-   display: none;
-   height: 0;
-   width: 0;
- }
 
 /* Top Navi DONE!*/
 .main-container {
