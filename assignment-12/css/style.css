@@ -62,15 +62,15 @@ footer {
   text-align: center;
 }
 #site-title {
-  font-family: 'Saira Stencil One', cursive;
+  font-family: 'Saira Stencil One', serif;
   margin: .7em;
   line-height: 1em;
   font-size: 6em;
-  margin-bottom: -5px;
+  line-height: 15%;
 }
 #site-slogan {
-  font-family: cursive;
-  font-size: 1.5em;
+  font-family: 'Dr Sugiyama', cursive;
+  font-size: 3em;
   letter-spacing: 1px;
   text-transform: lowercase;
   color: black;
