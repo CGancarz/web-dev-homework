@@ -67,14 +67,14 @@ body {
     background-image: inherit;
 }
 
-/* Text Background (black zone) */
+/* Text (black zone) */
 .clip-text:after {
     position: absolute;
     z-index: -1;
-    top: .2em;
-    right: .2em;
-    bottom: .2em;
-    left: .2em;
+    top: .15em;
+    right: .15em;
+    bottom: .15em;
+    left: .15em;
     background-color: #000;
 }
 
@@ -95,16 +95,16 @@ body {
   background-position: 100%;
 }
 
-/* Background image from http://thepatternlibrary.com/ and http://lorempixel.com */
+/* Background images at random */
 .clip-text {
-    background-image: url(https://picsum.photos/1100?random);
-}
+    background-image: url(https://placedog.net/1400/280?random);
+  }
 
 footer {
-  color: blue;
+  color: white;
   background-color: black;
   text-align: center;
   font-size: .75em;
-  margin-top: 3em;
-
+  margin-top: 5em;
+  margin-bottom: 0.5em;
 }

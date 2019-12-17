@@ -1,16 +1,20 @@
 
+.navigation {
+  position: center;
+  float: middle;
+}
 
 #site-navigation a {
   position: center;
   color: white;
-  display: block;
-  margin: 0.6em 1.2em;
+  display: inline;
+  float: center;
   font-family: sans-serif;
   font-size: 1em;
 }
 
 #social-links {
-  position: absolute center;
+  position: center;
   background-color: black;
   width: auto;
   margin-top: -60px;
