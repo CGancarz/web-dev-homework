@@ -1,4 +1,23 @@
+/* Scroll links */
+#section1 {
+  margin-left: 2em;
+  height: 1000px;
+  background-color: black;
+}
 
+#section2 {
+  margin-left: 2em;
+  height: 1000px;
+  background-color: black;
+}
+
+#section3 {
+    margin-left: 2em;
+    height: 1000px;
+    background-color: black;
+}
+
+/* Top Navi and links */
 .container{
   padding-top: 1em;
   position: center;
@@ -8,14 +27,13 @@
 #site-navigation a {
   color: white;
   display: inline;
-  font-family:'Oswald', sans-serif;sans-serif;
+  font-family:'Oswald', sans-serif;
   font-size: 1.5em;
   padding: 2.25em;
 }
 
-/* Social media icons at bottom */
+/* Social media icons at bottom page 1*/
 #social-links {
-  position: center;
   background-color: black;
   width: auto;
   margin-top: -60px;
@@ -24,6 +42,8 @@
 #social-links img {
   background-color: black;
   width: 2em;
-  margin: -6em 10.5em 0em -8em;
+  float: right;
+  margin-right: 6em;
+  margin-left: -4em;
   height: auto;
 }

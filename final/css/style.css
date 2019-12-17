@@ -4,6 +4,10 @@ body {
     width: 100vw;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     font-family: sans-serif;
     color: #fff;
@@ -16,11 +20,13 @@ body {
     width: 100vw;
 }
 
+/* Title - no effect */
 .title {
     font-size: 3em;
+    text-align: center;
     position: relative;
-    margin: 0 auto 1em;
-    padding: .25em;
+    margin: 2em;
+    padding: .5em;
     text-align: center;
     text-transform: uppercase;
 }
@@ -29,8 +35,8 @@ body {
 .title:after {
     position: absolute;
     top: 90%;
-    left: 39%;
-    width: 280px;
+    left: 35%;
+    width: 320px;
     height: 4px;
     content: '';
     background-color: #fff;
@@ -44,9 +50,8 @@ body {
     letter-spacing: -15px;
     line-height: 0.7;
     position: relative;
-    display: inline-block;
     margin: 0.7em;
-    padding: .6em;
+    padding: 0.5em;
     text-align: center;
     /* Color fallback */
     color: #fff;
@@ -60,7 +65,7 @@ body {
     content: '';
 }
 
-/* Background */
+/* Background to clip*/
 .clip-text:before {
     z-index: -2;
     top: 0;
@@ -70,7 +75,7 @@ body {
     background-image: inherit;
 }
 
-/* Text (black zone) */
+/* Text (black zone) to clip*/
 .clip-text:after {
     position: absolute;
     z-index: -1;
@@ -81,7 +86,6 @@ body {
     background-color: #000;
 }
 
-/* Change the background position to display letter when the black zone isn't here */
 .clip-text--no-textzone:before {
     background-position: -.75em 0;
 }
@@ -89,20 +93,13 @@ body {
     content: none;
 }
 
-/* Use Background-size cover for photo background and no-repeat background */
-.clip-text--cover,
-.clip-text--cover:before {
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-            background-size: cover;
-  background-position: 100%;
-}
-
-/* Background images at random */
+/* Clip Background images at random */
 .clip-text {
     background-image: url(https://placedog.net/1400/290?random);
   }
 
+
+  /* Copyright at bottom*/
 footer {
   color: white;
   background-color: black;

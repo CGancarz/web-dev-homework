@@ -9,36 +9,15 @@
     <link rel="stylesheet" type="text/css" href="./css/menu.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <title>Final Website: UMT Fall 2019</title>
-    <style>
-html {
-  scroll-behavior: smooth;
-}
-
-#section1 {
-  height: 1000px;
-  background-color: black;
-}
-
-#section2 {
-  height: 1000px;
-  background-color: black;
-}
-
-#section3 {
-    height: 1000px;
-    background-color: black;
-}
-</style>
 </head>
 
 <body>
 
   <div class="container" id="site-navigation">
     <div style="text-align:center">
-  <a href="./index.html">Home</a>
-  <a href="./about.html">About</a>
-  <a href="./gallery.html">Gallery</a>
-  <a href="./contact.html">Contact</a>
+  <a href="#section1">About</a>
+  <a href="#section2">Gallery</a>
+  <a href="#section3">Contact</a>
   </div>
 
 
@@ -46,7 +25,6 @@ html {
   </div>
 
     <div id="social-links">
-        <div style="text-align:right">
       <a href="https://www.instagram.com/alyssanic0le/?hl=en"><img src="./media/instagram.svg" title="Instagram" /></a>
       <a href="https://www.instagram.com/c_gancarz/?hl=en"><img src="./media/instagram.svg" title="Instagram" /></a>
 
@@ -60,20 +38,24 @@ html {
 <br>
 
     <div class="main" id="section1">
-      <h2>About</h2>
+      <h1>About</h1>
       <p>Click on the link to see the "smooth" scrolling effect.</p>
-      <a href="#section2">Click Me to Smooth Scroll to Section 2 Below</a>
-      <p>Note: Remove the scroll-behavior property to remove smooth scrolling.</p>
+      <a href="#site-navigation"> Above</a>
+      <a href="#section2"> Below</a>
     </div>
 
     <div class="main" id="section2">
-      <h2>Section 2</h2>
-      <a href="#section1">Click Me to Smooth Scroll to Section 1 Above</a>
+      <h1>Gallery</h1>
+      <p>Click on the link to see the "smooth" scrolling effect.</p>
+      <a href="#section1"> Above</a>
+      <a href="#section3">Below</a>
     </div>
 
     <div class="main" id="section3">
-      <h2>Section 2</h2>
-      <a href="#section1">Click Me to Smooth Scroll to Section 1 Above</a>
+      <h1>Contact</h1>
+      <p>Click on the link to see the "smooth" scrolling effect.</p>
+      <a href="#section2">Above</a>
+      <a href="#site-navigation">Top</a>
     </div>
 
 </body>
