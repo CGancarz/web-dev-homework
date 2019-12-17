@@ -3,7 +3,7 @@
   margin-left: 2.5em;
   margin-right: 2.5em;
   font-size: 1.25em;
-  height: 800px;
+  height: 1200px;
   background-color: black;
   padding-left: 10px;
 }
@@ -18,14 +18,14 @@
 
 #section3 {
     margin-left: 2.5em;
-    height: 250px;
+    height: 400px;
     background-color: black;
 }
 
 h1  {
   font-size: 3.5em;
   font-family: 'Lobster Two', cursive;
-  text-decoration: underline;
+  text-decoration: underline #e75480;
 }
 
 /* Top Navi */
@@ -40,5 +40,6 @@ h1  {
   display: inline;
   font-family:'Oswald', sans-serif;
   font-size: 2em;
+  height: 1400px;
   padding: 2em;
 }

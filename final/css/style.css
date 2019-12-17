@@ -19,9 +19,8 @@ a:link {
   text-decoration: none;
 }
 
-#section1 {
-  display: flex;
-  justify-content: space-between;
+p {
+  display: inline;
 }
 
 /* Tennis ball button*/
@@ -44,32 +43,21 @@ a:link {
   float: right;
 }
 
-.wrapper {
-    text-align: center;
-    width: 100vw;
-}
-
 /* Title - no effect */
 .title {
+    width: 100%;
+    padding-bottom: 9px;
     font-size: 3em;
     text-align: center;
     position: relative;
-    margin: 2em;
-    padding: .5em;
     text-align: center;
     text-transform: uppercase;
 }
-
-/* Line under title */
-.title:after {
-    position: absolute;
-    top: 90%;
-    left: 35%;
-    right: 35%;
-    width: 320px;
-    height: 4px;
-    content: '';
-    background-color: #fff;
+/* Divider line */
+.divider {
+  border-bottom: 5px solid white;
+  width: 23%;
+  margin: auto;
 }
 
 /* Clip text element */
@@ -139,64 +127,64 @@ a:link {
   div.gallery {
   border: 1px solid black;
 }
-div.gallery:hover {
+  div.gallery:hover {
   border: 1px solid #777;
 }
-div.gallery img {
+  div.gallery img {
   width: 100%;
   height: auto;
 }
-div.desc {
+  div.desc {
   padding: 5px;
   text-align: center;
 }
-* {
+  * {
   box-sizing: border-box;
 }
-.responsive {
+  .responsive {
   padding: 0 6px;
   float: left;
   width: 24.99999%;
 }
-@media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;
     margin: 6px 0;
   }
 }
-@media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 500px) {
   .responsive {
     width: 100%;
   }
 }
-.clearfix:after {
+  .clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
 
 /* Paragraph styling*/
-mark.green {
+  mark.green {
     color: green;
     background: none;
 }
-mark.red {
+  mark.red {
     color: red;
     background: none;
 }
 
   /* Social media & Copyright at bottom*/
-.socialmedia{
+  .socialmedia{
   display: block;
   margin-left: auto;
   margin-right: auto;
   background-color: black;
   padding: 0.25em;
 }
-footer {
+  footer {
   color: white;
   background-color: black;
   text-align: center;
   font-size: .8em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.25em;
 }
