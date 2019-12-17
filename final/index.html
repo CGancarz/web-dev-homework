@@ -4,11 +4,31 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Caroline Gancarz">
-    <meta name="description" content="Spud Sacks">
+    <meta name="description" content="Fina Project">
     <link rel="stylesheet" type="text/css" href="./css/fonts.css">
     <link rel="stylesheet" type="text/css" href="./css/menu.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <title>Final Website: UMT Fall 2019</title>
+    <style>
+html {
+  scroll-behavior: smooth;
+}
+
+#section1 {
+  height: 1000px;
+  background-color: black;
+}
+
+#section2 {
+  height: 1000px;
+  background-color: black;
+}
+
+#section3 {
+    height: 1000px;
+    background-color: black;
+}
+</style>
 </head>
 
 <body>
@@ -17,6 +37,7 @@
     <div style="text-align:center">
   <a href="./index.html">Home</a>
   <a href="./about.html">About</a>
+  <a href="./gallery.html">Gallery</a>
   <a href="./contact.html">Contact</a>
   </div>
 
@@ -32,6 +53,27 @@
       <div class="wrapper">
       <p class="title">Date with a dog</p>
       </div>
+    </div>
+<br>
+<br>
+<br>
+<br>
+
+    <div class="main" id="section1">
+      <h2>About</h2>
+      <p>Click on the link to see the "smooth" scrolling effect.</p>
+      <a href="#section2">Click Me to Smooth Scroll to Section 2 Below</a>
+      <p>Note: Remove the scroll-behavior property to remove smooth scrolling.</p>
+    </div>
+
+    <div class="main" id="section2">
+      <h2>Section 2</h2>
+      <a href="#section1">Click Me to Smooth Scroll to Section 1 Above</a>
+    </div>
+
+    <div class="main" id="section3">
+      <h2>Section 2</h2>
+      <a href="#section1">Click Me to Smooth Scroll to Section 1 Above</a>
     </div>
 
 </body>
