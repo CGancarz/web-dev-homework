@@ -3,18 +3,16 @@
   margin-left: 3em;
   margin-right: 3em;
   font-size: 1.25em;
-  height: 1000px;
+  height: 800px;
   background-color: black;
-}
-  #Meeshie {
-
+  padding-left: 10px;
 }
 
 #section2 {
   text-align: right;
   margin-left: 3em;
   margin-right: 3em;
-  height: 1500px;
+  height: 1400px;
   background-color: black;
 }
 
@@ -22,6 +20,11 @@
     margin-left: 3em;
     height: 1000px;
     background-color: black;
+}
+
+h1  {
+  font-size: 3em;
+  font-family:'Oswald', sans-serif;
 }
 
 /* Top Navi and links */

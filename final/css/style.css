@@ -144,6 +144,16 @@ div.desc {
 }
 
 
+mark.green {
+    color: green;
+    background: none;
+}
+
+mark.red {
+    color: red;
+    background: none;
+}
+
   /* Copyright at bottom*/
 footer {
   color: white;
