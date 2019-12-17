@@ -23,6 +23,27 @@ a:link {
   display: flex;
   justify-content: space-between;
 }
+
+/* Tennis ball button*/
+.button {
+  float: right;
+  padding-right: 3em;
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+
+.centered {
+  position: absolute;
+  padding-right: 3em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  float: right;
+}
+
 .wrapper {
     text-align: center;
     width: 100vw;
@@ -44,6 +65,7 @@ a:link {
     position: absolute;
     top: 90%;
     left: 35%;
+    right: 35%;
     width: 320px;
     height: 4px;
     content: '';
@@ -106,6 +128,12 @@ a:link {
     background-image: url(https://placedog.net/1400/290?random);
   }
 
+  /* Meeshie Image About*/
+  .MeeshiePhoto {
+   display: block;
+   margin-right: auto;
+   padding-left: 2.5em;
+ }
 
 /* Galley photos*/
   div.gallery {
@@ -125,48 +153,50 @@ div.desc {
 * {
   box-sizing: border-box;
 }
-
 .responsive {
   padding: 0 6px;
   float: left;
   width: 24.99999%;
 }
-
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;
     margin: 6px 0;
   }
 }
-
 @media only screen and (max-width: 500px) {
   .responsive {
     width: 100%;
   }
 }
-
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
 
+/* Paragraph styling*/
 mark.green {
     color: green;
     background: none;
 }
-
 mark.red {
     color: red;
     background: none;
 }
 
-  /* Copyright at bottom*/
+  /* Social media & Copyright at bottom*/
+.socialmedia{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  padding: 0.25em;
+}
 footer {
   color: white;
   background-color: black;
   text-align: center;
-  font-size: .75em;
-  margin-top: 5em;
+  font-size: .8em;
   margin-bottom: 0.5em;
 }
