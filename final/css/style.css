@@ -21,6 +21,7 @@ a:link {
 
 p {
   display: inline;
+  padding: 20px;
 }
 
 /* Tennis ball button*/
@@ -117,10 +118,10 @@ p {
   }
 
   /* Meeshie Image About*/
-  .MeeshiePhoto {
+  #MeeshiePhoto {
    display: block;
    margin-right: auto;
-   padding-left: 2.5em;
+   padding-left: 1.75em;
  }
 
 /* Galley photos*/

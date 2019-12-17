@@ -1,24 +1,23 @@
 /* Scroll links */
 #section1 {
-  margin-left: 2.5em;
-  margin-right: 2.5em;
+  margin-left: 1em;
+  margin-right: 1em;
   font-size: 1.25em;
-  height: 1200px;
+  height: 1400px;
   background-color: black;
-  padding-left: 10px;
 }
 
 #section2 {
   text-align: right;
-  margin-left: 2.5em;
-  margin-right: 2.5em;
+  margin-left: 1em;
+  margin-right: 1em;
   height: 1400px;
   background-color: black;
 }
 
 #section3 {
-    margin-left: 2.5em;
-    height: 400px;
+    margin-left: 1em;
+    height: 600px;
     background-color: black;
 }
 
