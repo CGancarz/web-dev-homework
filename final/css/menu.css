@@ -1,18 +1,19 @@
 /* Scroll links */
 #section1 {
-  margin-left: 2em;
+  margin-left: 3em;
   height: 1000px;
   background-color: black;
 }
 
 #section2 {
-  margin-left: 2em;
+  text-align: right;
+  margin-right: 3em;
   height: 1000px;
   background-color: black;
 }
 
 #section3 {
-    margin-left: 2em;
+    margin-left: 3em;
     height: 1000px;
     background-color: black;
 }
