@@ -19,7 +19,7 @@ a:link {
   text-decoration: none;
 }
 
-p {
+p.AboutP {
   display: inline;
   padding: 20px;
 }
