@@ -18,8 +18,8 @@
 
 /* Social media icons at bottom */
 #social-links img {
-  background-color: black;
-  width: 25%;
+  position: static;
+  background-color: white;
+  width: 2.5em;
   height: auto;
-  float: center;
 }
