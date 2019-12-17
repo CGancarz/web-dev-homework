@@ -1,7 +1,7 @@
 /* Scroll links */
 #section1 {
-  margin-left: 3em;
-  margin-right: 3em;
+  margin-left: 2.5em;
+  margin-right: 2.5em;
   font-size: 1.25em;
   height: 800px;
   background-color: black;
@@ -10,24 +10,25 @@
 
 #section2 {
   text-align: right;
-  margin-left: 3em;
-  margin-right: 3em;
+  margin-left: 2.5em;
+  margin-right: 2.5em;
   height: 1400px;
   background-color: black;
 }
 
 #section3 {
-    margin-left: 3em;
-    height: 1000px;
+    margin-left: 2.5em;
+    height: 250px;
     background-color: black;
 }
 
 h1  {
-  font-size: 3em;
-  font-family:'Oswald', sans-serif;
+  font-size: 3.5em;
+  font-family: 'Lobster Two', cursive;
+  text-decoration: underline;
 }
 
-/* Top Navi and links */
+/* Top Navi */
 .container{
   padding-top: 1em;
   position: center;
@@ -38,22 +39,13 @@ h1  {
   color: white;
   display: inline;
   font-family:'Oswald', sans-serif;
-  font-size: 1.5em;
-  padding: 2.25em;
+  font-size: 2em;
+  padding: 2em;
 }
 
 /* Social media icons at bottom page 1*/
-#social-links {
-  background-color: black;
-  width: auto;
-  margin-top: -60px;
-}
 
-#social-links img {
+.socialmedia{
   background-color: black;
-  width: 2em;
-  float: right;
-  margin-right: 6em;
-  margin-left: -4em;
-  height: auto;
+  padding-right: 3em;
 }

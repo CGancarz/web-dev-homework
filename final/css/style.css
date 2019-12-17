@@ -15,6 +15,14 @@ body {
     overflow-x: hidden;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+#section1 {
+  display: flex;
+  justify-content: space-between;
+}
 .wrapper {
     text-align: center;
     width: 100vw;
@@ -142,7 +150,6 @@ div.desc {
   display: table;
   clear: both;
 }
-
 
 mark.green {
     color: green;
