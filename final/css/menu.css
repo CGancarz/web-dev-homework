@@ -1,18 +1,7 @@
-/* Sidebar main page */
-.sidebar {
-  background-color: white;
-  width: 180px;
-  padding: 30px;
-  height: 100vh;
-  float: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
 
 
-/* Site Links with indent change on hover: */
 #site-navigation a {
+  position: center;
   color: white;
   display: block;
   margin: 0.6em 1.2em;
@@ -20,23 +9,17 @@
   font-size: 1em;
 }
 
-#site-navigation a:hover {
-  text-indent: 0.8em;
-}
-
 #social-links {
-  background-color: white;
-  width: center;
-  position: center;
-  bottom: 10px;
+  position: absolute center;
+  background-color: black;
+  width: auto;
+  margin-top: -60px;
 }
 
+/* Social media icons at bottom */
 #social-links img {
-  background-color: white;
+  background-color: black;
   width: 25%;
   height: auto;
   float: center;
-}
-#social-links img:hover {
-  background-color: #b79268;
 }

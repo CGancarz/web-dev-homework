@@ -1,20 +1,3 @@
-/*
-  Based from this article from Divya Manian -
-  http://nimbupani.com/using-background-clip-for-text-with-css-fallback.html
-*/
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-*,
-:before,
-:after {
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-}
 
 html,
 body {
@@ -35,15 +18,17 @@ body {
     font-size: 3em;
     position: relative;
     margin: 0 auto 1em;
-    padding: 1em 1em .25em 1em;
+    padding: 1.5em 1.5em .5em 1.5em;
     text-align: center;
     text-transform: uppercase;
 }
+
+/* Line under title */
 .title:after {
     position: absolute;
-    top: 100%;
+    top: 90%;
     left: 50%;
-    width: 240px;
+    width: 200px;
     height: 4px;
     margin-left: -120px;
     content: '';
@@ -54,10 +39,10 @@ body {
 .clip-text {
     font-size: 10em;
     font-weight: bold;
-    line-height: 1;
+    line-height: 0.7;
     position: relative;
     display: inline-block;
-    margin: .25em;
+    margin: .5em;
     padding: .5em .75em;
     text-align: center;
     /* Color fallback */
@@ -86,10 +71,10 @@ body {
 .clip-text:after {
     position: absolute;
     z-index: -1;
-    top: .125em;
-    right: .125em;
-    bottom: .125em;
-    left: .125em;
+    top: .2em;
+    right: .2em;
+    bottom: .2em;
+    left: .2em;
     background-color: #000;
 }
 
@@ -97,7 +82,6 @@ body {
 .clip-text--no-textzone:before {
     background-position: -.75em 0;
 }
-
 .clip-text--no-textzone:after {
     content: none;
 }
@@ -108,10 +92,21 @@ body {
     background-repeat: no-repeat;
     -webkit-background-size: cover;
             background-size: cover;
-  background-position: 50% 50%;
+  background-position: 100%;
 }
 
 /* Background image from http://thepatternlibrary.com/ and http://lorempixel.com */
-.clip-text_one {
-    background-image: url(https://picsum.photos/480/200?random);
+.clip-text {
+    background-image: url(https://picsum.photos/1100?random);
+}
+
+footer {
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-top: 3em;
+
 }
