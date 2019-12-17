@@ -98,25 +98,22 @@ body {
     background-image: url(https://placedog.net/1400/290?random);
   }
 
+
 /* Galley photos*/
   div.gallery {
-  border: 1px solid #ccc;
+  border: 1px solid black;
 }
-
 div.gallery:hover {
   border: 1px solid #777;
 }
-
 div.gallery img {
   width: 100%;
   height: auto;
 }
-
 div.desc {
-  padding: 15px;
+  padding: 5px;
   text-align: center;
 }
-
 * {
   box-sizing: border-box;
 }
