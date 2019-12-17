@@ -1,13 +1,15 @@
 
 html,
 body {
-    min-height: 100%;
+    width: 100vw;
 }
 
 body {
-    font-family: 'Oswald', sans-serif;
+    font-family: sans-serif;
     color: #fff;
     background-color: #000;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .wrapper {
@@ -19,7 +21,7 @@ body {
     font-size: 3em;
     position: relative;
     margin: 0 auto 1em;
-    padding: 1.5em 1.5em .5em 1.5em;
+    padding: .25em;
     text-align: center;
     text-transform: uppercase;
 }
@@ -28,10 +30,9 @@ body {
 .title:after {
     position: absolute;
     top: 90%;
-    left: 50%;
-    width: 200px;
+    left: 39%;
+    width: 280px;
     height: 4px;
-    margin-left: -120px;
     content: '';
     background-color: #fff;
 }
@@ -100,8 +101,7 @@ body {
 
 /* Background images at random */
 .clip-text {
-    background-image: url(https://placedog.net/1400/280?random);
-
+    background-image: url(https://placedog.net/1400/290?random);
   }
 
 footer {

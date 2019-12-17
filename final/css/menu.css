@@ -1,17 +1,19 @@
 
 .container{
+  padding-top: 1em;
   position: center;
   float: middle;
 }
 
 #site-navigation a {
-  padding-top: 0.5em;
   color: white;
   display: inline;
-  font-family: sans-serif;
-  font-size: 1em;
+  font-family:'Oswald', sans-serif;sans-serif;
+  font-size: 1.5em;
+  padding: 2.25em;
 }
 
+/* Social media icons at bottom */
 #social-links {
   position: center;
   background-color: black;
@@ -19,10 +21,9 @@
   margin-top: -60px;
 }
 
-/* Social media icons at bottom */
 #social-links img {
   background-color: black;
   width: 2em;
-  margin: -0.5em 6em 0em -4em;
+  margin: -6em 10.5em 0em -8em;
   height: auto;
 }
