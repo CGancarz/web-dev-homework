@@ -2,6 +2,7 @@
 html,
 body {
     width: 100vw;
+    height: 100%;
 }
 
 html {
@@ -172,7 +173,7 @@ p.AboutP {
     background: none;
 }
 
-  /* Social media & Copyright at bottom*/
+  /* Social media*/
   .socialmedia{
   display: block;
   margin-left: auto;
@@ -186,4 +187,12 @@ p.AboutP {
   text-align: center;
   font-size: .8em;
   margin-bottom: 0.25em;
+}
+
+/* Copyright at bottom*/
+#copyright{
+    height: 85%;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
 }
