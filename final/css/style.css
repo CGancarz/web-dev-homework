@@ -21,7 +21,7 @@ a:link {
 
 p.AboutP {
   display: inline;
-  padding: 20px;
+  padding: 30px;
 }
 
 /* Tennis ball button*/
@@ -47,7 +47,6 @@ p.AboutP {
 /* Title - no effect */
 .title {
     width: 100%;
-    padding-bottom: 9px;
     font-size: 3em;
     text-align: center;
     position: relative;
@@ -56,7 +55,7 @@ p.AboutP {
 }
 /* Divider line */
 .divider {
-  border-bottom: 5px solid white;
+  border: 3px solid white;
   width: 23%;
   margin: auto;
 }
@@ -104,7 +103,6 @@ p.AboutP {
     left: .15em;
     background-color: #000;
 }
-
 .clip-text--no-textzone:before {
     background-position: -.75em 0;
 }
@@ -129,14 +127,14 @@ p.AboutP {
   border: 1px solid black;
 }
   div.gallery:hover {
-  border: 1px solid #777;
+  border: 1px solid #e75480;
 }
   div.gallery img {
   width: 100%;
   height: auto;
 }
   div.desc {
-  padding: 5px;
+  padding: 3px;
   text-align: center;
 }
   * {
